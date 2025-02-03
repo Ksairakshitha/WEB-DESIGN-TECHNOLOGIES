@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Ticket booking</title>
+<link rel="stylesheet"  href="s.css" type="text/css">
+<style>
+h1{
+color:red;
+}
+</style>
+<script language ="javascript" type="text/javascript">
+function total(){
+ var a,b;
+ a=Number(document.getElementById("first_textbox").value);
+ b=a*100;
+ document.getElementById("answer").value=b;
+}
+</script>
+</head>
+<body>
+<marquee><h1>welcome to online pvr ticket booking</h1></marquee>
+<center>
+<h2 style="color:green;">Bill particulars</h2>
+ Number of tickets:<input type:"number" id="first_textbox" required></br><br/>
+<button onclick="total()">TOTAL PAYMENT</button>
+<input type="text" id="answer"></br><br/>
+Copyright2023@BigtreeEntertainment Pvt Ltd. All rights reserved
+</body>
+</html> 
